@@ -1,0 +1,32 @@
+<div class="bg-slate-300 w-100 h-64 rounded" *ngIf="quizData">
+  <!-- quiz.component.html -->
+  <div
+    *ngIf="
+      quizData &&
+      quizData.questions &&
+      currentQuestionIndex < quizData.questions.length
+    "
+  >
+    <h2 class="text-center text-2xl font-bold py-8">
+      {{ getCurrentQuestion().text }}
+    </h2>
+    <ul class="grid grid-cols-2 gap-5 p-5">
+      <li
+        *ngFor="let option of getCurrentQuestion().options"
+        class="block bg-blue-400 p-2 rounded border-blue-500 text-white hover:bg-blue-500 transition duration-100"
+      >
+        <button (click)="onNextQuestion(option.alias)" class="block w-full">
+          {{ option.name }}
+        </button>
+      </li>
+    </ul>
+  </div>
+
+  <div *ngIf="studentProfile !== null" class="text-center pt-8 text-3xl font-bold">
+
+    <div *ngIf="profileResult !== null">
+      <h3>Resultado do Perfil:</h3>
+      <p>{{ profileResult }}</p>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,112 @@
+{
+  "title": "Questionário para Estudantes",
+  "description": "Responda às perguntas para descobrir seu perfil de estudante.",
+  "questions": [
+    {
+      "id": 1,
+      "text": "Como você se sente em relação aos estudos?",
+      "options": [
+        { "id": 1, "name": "Gosto de estudar", "alias": "a" },
+        { "id": 2, "name": "Não gosto muito de estudar", "alias": "b" },
+        { "id": 3, "name": "Estou indiferente", "alias": "c" },
+        { "id": 4, "name": "Não sei responder", "alias": "d" }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Quantas horas você estuda por dia?",
+      "options": [
+        { "id": 5, "name": "Mais de 4 horas", "alias": "a" },
+        { "id": 6, "name": "Entre 2 e 4 horas", "alias": "b" },
+        { "id": 7, "name": "Menos de 2 horas", "alias": "c" },
+        { "id": 8, "name": "Não estudo", "alias": "d" }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Como você se prepara para provas?",
+      "options": [
+        { "id": 9, "name": "Estudo com antecedência", "alias": "a" },
+        { "id": 10, "name": "Estudo na última hora", "alias": "b" },
+        { "id": 11, "name": "Não costumo estudar para provas", "alias": "c" },
+        { "id": 12, "name": "Não sei responder", "alias": "d" }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Você participa de grupos de estudo?",
+      "options": [
+        { "id": 13, "name": "Sim, regularmente", "alias": "a" },
+        { "id": 14, "name": "Às vezes", "alias": "b" },
+        { "id": 15, "name": "Não, nunca", "alias": "c" },
+        { "id": 16, "name": "Não sei o que é um grupo de estudo", "alias": "d" }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Como você lida com o estresse durante os estudos?",
+      "options": [
+        { "id": 17, "name": "Mantenho a calma", "alias": "a" },
+        { "id": 18, "name": "Fico um pouco estressado", "alias": "b" },
+        { "id": 19, "name": "Fico muito estressado", "alias": "c" },
+        { "id": 20, "name": "Não sei responder", "alias": "d" }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "Você costuma fazer anotações enquanto estuda?",
+      "options": [
+        { "id": 21, "name": "Sim, sempre", "alias": "a" },
+        { "id": 22, "name": "Às vezes", "alias": "b" },
+        { "id": 23, "name": "Não, nunca", "alias": "c" },
+        { "id": 24, "name": "Não sei o que são anotações", "alias": "d" }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "Como você escolhe os materiais de estudo?",
+      "options": [
+        { "id": 25, "name": "Sigo recomendações de professores", "alias": "a" },
+        { "id": 26, "name": "Escolho baseado em minhas preferências", "alias": "b" },
+        { "id": 27, "name": "Não costumo escolher, uso o que está disponível", "alias": "c" },
+        { "id": 28, "name": "Não sei responder", "alias": "d" }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "Como você gerencia seu tempo durante os estudos?",
+      "options": [
+        { "id": 29, "name": "Tenho um cronograma bem definido", "alias": "a" },
+        { "id": 30, "name": "Adapto-me conforme necessário", "alias": "b" },
+        { "id": 31, "name": "Não costumo gerenciar meu tempo", "alias": "c" },
+        { "id": 32, "name": "Não sei responder", "alias": "d" }
+      ]
+    },
+    {
+      "id": 9,
+      "text": "Você costuma revisar o material após as aulas?",
+      "options": [
+        { "id": 33, "name": "Sim, sempre", "alias": "a" },
+        { "id": 34, "name": "Às vezes", "alias": "b" },
+        { "id": 35, "name": "Não, nunca", "alias": "c" },
+        { "id": 36, "name": "Não sei o que é revisar", "alias": "d" }
+      ]
+    },
+    {
+      "id": 10,
+      "text": "Qual é a sua atitude em relação a aulas práticas?",
+      "options": [
+        { "id": 37, "name": "Gosto e participo ativamente", "alias": "a" },
+        { "id": 38, "name": "Participo, mas não me destaco muito", "alias": "b" },
+        { "id": 39, "name": "Não participo muito", "alias": "c" },
+        { "id": 40, "name": "Não sei responder", "alias": "d" }
+      ]
+    }
+  ],
+  "results": {
+    "a": "Você é um estudante dedicado e comprometido com os estudos.",
+    "b": "Você pode melhorar alguns aspectos de sua abordagem aos estudos para obter melhores resultados.",
+    "c": "Seu comportamento em relação aos estudos pode ser inconsistente. Considere estabelecer uma rotina mais eficaz.",
+    "d": "Suas respostas não fornecem informações suficientes para avaliar seu perfil de estudante."
+  }
+}
