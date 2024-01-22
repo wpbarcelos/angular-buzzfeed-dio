@@ -1,5 +1,7 @@
 # Angular Buzzfeed Clone - Desafio Bootcamp DIO
 
+Demo [https://enchanting-genie-d63644.netlify.app/](https://enchanting-genie-d63644.netlify.app/)
+
 ## Descrição
 
 Este projeto é um Buzzfeed Clone desenvolvido como parte do desafio do Bootcamp da [Digital Innovation One (DIO)](https://digitalinnovation.one/). O Buzzfeed Clone é uma aplicação web que permite aos usuários responder a um questionário estilo Buzzfeed para descobrir seu "perfil de estudante". O questionário consiste em 10 perguntas, cada uma com quatro opções, e o perfil do usuário é determinado com base nas respostas dadas.
